@@ -6,7 +6,7 @@ export const PORTFOLIO_DATA = {
     lastName: "Unnikrishnan",
     role: "MERN Stack Dev",
     intro: "I'm a passionate MERN Stack Developer with hands-on experience in building responsive and scalable web applications using MongoDB, Express.js, React.js, and Node.js.",
-    resumeLink: "/Sarath_Unnikrishnan_Resume.pdf"
+    resumeLink: "https://drive.google.com/uc?export=download&id=1N0NsGnO_1jWmVeosVG9OJdNYq6KZqvpw"
   },
   about: {
     title: "Passionate MERN Stack Developer",

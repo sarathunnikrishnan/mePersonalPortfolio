@@ -81,7 +81,7 @@ const Hero = () => {
             </a>
             <a
               href={PORTFOLIO_DATA.hero.resumeLink}
-              download={PORTFOLIO_DATA.hero.resumeLink.split('/').pop()}
+              download="Sarath_Unnikrishnan_Resume.pdf"
               className="w-full sm:w-auto px-8 py-4 rounded-full glass-card text-foreground font-medium flex items-center justify-center gap-2 hover:bg-white/5 transition-all"
             >
               Download Resume
