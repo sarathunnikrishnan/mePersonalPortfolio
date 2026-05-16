@@ -36,7 +36,7 @@ const Hero = () => {
         <div className="absolute bottom-1/4 right-1/4 w-[30rem] h-[30rem] bg-accent/20 rounded-full blur-[100px] hero-parallax"></div>
       </div>
 
-      <div className="container mx-auto px-6 relative z-10">
+      <div className="container mx-auto px-6 relative z-10 pb-32">
         <div className="max-w-4xl mx-auto text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -70,11 +70,11 @@ const Hero = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.8 }}
-            className="flex flex-col sm:flex-row items-center justify-center gap-4"
+            className="flex flex-col sm:flex-row items-center justify-center gap-6"
           >
             <a
               href="#projects"
-              className="w-full sm:w-auto px-8 py-4 rounded-full bg-primary text-white font-medium flex items-center justify-center gap-2 hover:bg-opacity-90 hover:scale-105 transition-all shadow-[0_0_20px_var(--primary-glow)] group"
+              className="w-full sm:w-auto px-8 py-4 rounded-full border border-transparent bg-primary text-white font-medium flex items-center justify-center gap-2 hover:bg-opacity-90 hover:scale-105 transition-all shadow-[0_0_20px_var(--primary-glow)] group"
             >
               Explore Projects
               <ArrowRight className="group-hover:translate-x-1 transition-transform" size={18} />

@@ -120,7 +120,7 @@ export const PORTFOLIO_DATA = {
   contact: {
     email: "sarathunnikrishnan18@gmail.com",
     location: "Cochin, Kerala",
-    phone: "+91 987654321"
+    phone: "+91 7012949467"
   },
   social: {
     github: "https://github.com/sarathunnikrishnan",
