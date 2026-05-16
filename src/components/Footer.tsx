@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Github, Linkedin, ArrowUp } from 'lucide-react';
 import { PORTFOLIO_DATA } from '../constants';
 
