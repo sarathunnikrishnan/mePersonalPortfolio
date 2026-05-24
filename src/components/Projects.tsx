@@ -82,10 +82,10 @@ const Projects = () => {
                   {/* Hover Overlay */}
                   <div className="absolute inset-0 bg-gradient-to-t from-background via-background/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-20 flex items-end p-6">
                     <div className="flex gap-3 translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
-                      <a href={project.liveLink} className="w-10 h-10 rounded-full bg-primary text-white flex items-center justify-center hover:scale-110 transition-transform">
+                      <a href={project.liveLink} target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-primary text-white flex items-center justify-center hover:scale-110 transition-transform">
                         <ExternalLink size={18} />
                       </a>
-                      <a href={project.githubLink} className="w-10 h-10 rounded-full glass flex items-center justify-center hover:scale-110 transition-transform">
+                      <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full glass flex items-center justify-center hover:scale-110 transition-transform">
                         <Github size={18} />
                       </a>
                     </div>

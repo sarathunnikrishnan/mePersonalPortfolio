@@ -73,8 +73,8 @@ export const PORTFOLIO_DATA = {
         image: 'https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=2070&auto=format&fit=crop',
         description: 'A full-stack e-commerce style bridal shopping platform with secure user authentication and product management features. Includes shopping cart and responsive interface.',
         tech: ['React.js', 'Node.js', 'Express.js', 'MongoDB'],
-        liveLink: '#',
-        githubLink: 'https://github.com/sarathunnikrishnan'
+        liveLink: 'https://black-and-white-smoky.vercel.app',
+        githubLink: 'https://github.com/sarathunnikrishnan/Bridal_Application_App'
       },
       {
         id: 2,
@@ -84,7 +84,7 @@ export const PORTFOLIO_DATA = {
         description: 'An interactive quiz platform designed to improve children’s learning and IQ assessment experience with dynamic quiz rendering and smooth user experience.',
         tech: ['React.js', 'Node.js', 'Express.js', 'HTML/CSS'],
         liveLink: '#',
-        githubLink: 'https://github.com/sarathunnikrishnan'
+        githubLink: 'https://github.com/sarathunnikrishnan/Edutism_Quiz-App'
       }
     ]
   },

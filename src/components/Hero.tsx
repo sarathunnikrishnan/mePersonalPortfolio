@@ -38,16 +38,6 @@ const Hero = () => {
 
       <div className="container mx-auto px-6 relative z-10 pb-32">
         <div className="max-w-4xl mx-auto text-center">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.2 }}
-            className="mb-6 inline-flex items-center gap-2 px-4 py-2 rounded-full glass border border-primary/30"
-          >
-            <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse"></span>
-            <span className="text-sm font-medium">Available for new opportunities</span>
-          </motion.div>
-
           <motion.h1
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
